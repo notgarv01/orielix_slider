@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+.slider{
+    height: 250px;
+    width: 90%;
+    background-color: skyblue;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    padding: 1%;
+}
+.slide-track{
+    width: calc(250px * 10);
+    display: flex;
+    animation: scroll s linear infinite;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-250px * 5));
+    }
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    padding: 0.5%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    perspective: 100px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
