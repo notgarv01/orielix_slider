@@ -24,7 +24,7 @@ html,body{
 .slide-track{
     width: calc(250px * 10);
     display: flex;
-    animation: scroll s linear infinite;
+    animation: scroll 10s linear infinite;
 }
 @keyframes scroll{
     0%{
