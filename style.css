@@ -40,11 +40,28 @@ html,body{
     padding: 1%;
     background-color: rgb(255, 255, 255);
     display: flex;
+    justify-content: center;
     align-items: center;
     perspective: 100px;
     margin-right: 20px;
 }
-img{
-    height: 70px;
+.slide:nth-child(1) img,.slide:nth-child(6) img{
+    height: 90px;
     width: 150px;
+}
+.slide:nth-child(2) img,.slide:nth-child(7) img{
+    height: 55px;
+    width: 180px;
+}
+.slide:nth-child(4) img,.slide:nth-child(9) img{
+    height: 120px;
+    width: 170px;
+}
+.slide:nth-child(5) img,.slide:nth-child(10) img{
+    height: 55px;
+    width: 155px;
+}
+img{
+    height: 100%;
+    width: 100%;
 }
