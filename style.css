@@ -56,6 +56,7 @@ html,body{
 .slide:nth-child(3) img,.slide:nth-child(8) img{
     height: 90px;
     width: 230px;
+    margin-top: 5%;
 }
 .slide:nth-child(4) img,.slide:nth-child(9) img{
     height: 150px;
