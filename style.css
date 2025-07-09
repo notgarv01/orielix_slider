@@ -46,12 +46,16 @@ html,body{
     margin-right: 20px;
 }
 .slide:nth-child(1) img,.slide:nth-child(6) img{
-    height: 90px;
+    height: 100px;
     width: 150px;
 }
 .slide:nth-child(2) img,.slide:nth-child(7) img{
     height: 55px;
     width: 180px;
+}
+.slide:nth-child(3) img,.slide:nth-child(8) img{
+    height: 90px;
+    width: 230px;
 }
 .slide:nth-child(4) img,.slide:nth-child(9) img{
     height: 120px;
